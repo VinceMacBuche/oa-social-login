@@ -460,7 +460,7 @@ function oa_social_login_shortcode_test ($args, $content = null)
 					return do_shortcode ($content);
 				}
 			}
-			elseif ($attr ['is_social_login_user'] == 'false')
+			elseif ($args ['is_social_login_user'] == 'false')
 			{
 				if (!$is_social_login_user)
 				{
